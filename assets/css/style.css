@@ -1,0 +1,282 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+#hero__area{
+    /* background-image: linear-gradient(160deg, #0093e9 0, #80d0c7 100%); */
+    background-image: url('../img/banner2.gif');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: cover;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 10%);
+    height: 26.6rem;
+}
+
+#hero__area h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #003140;
+}
+
+#form__area {
+    margin-bottom: 5rem;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+}
+.card-body{
+    padding: 4rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.email{
+    width: 47%;
+    margin-right: 22px;
+}
+.password{
+    width: 47%;
+
+}
+
+.form-flex input+label:first-of-type {
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+.form-radio input {
+    padding: 0.5rem 1rem;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+   
+}
+.form-radio {
+    width: 50%;
+    padding: 0 11px;
+}
+.form-radio input:checked+label {
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+    z-index: 1;
+}
+
+.l-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 360px;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.form__title {
+    font-weight: 400;
+    margin-bottom: 3rem;
+    border-left: 3px solid #0d6efd;
+}
+
+.form__div {
+    position: relative;
+    height: 48px;
+    margin-bottom: 1.5rem;
+}
+
+.form__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    outline: none;
+    margin: 3px;
+    padding: 1rem;
+    background: none;
+    z-index: 1;
+}
+
+.form__label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    padding: 0 .25rem;
+    background-color: #fff;
+    color: #80868B;
+    font-size: 1rem;
+    transition: .3s;
+}
+.form__button {
+    display: block;
+    margin-left: auto;
+    padding: .50rem 1.4rem;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    outline: none;
+    border: none;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: .875rem;
+    letter-spacing: .0107142857em;
+    font-weight: 500;
+    text-transform: none;
+
+}
+
+.form__button:hover {
+    background-color: #0d6efd;
+
+}
+
+.form__input:focus+.form__label {
+    top: -.5rem;
+    left: .8rem;
+    color: #0d6efd;
+    font-size: .75rem;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.form__input:not(:placeholder-shown).form__input:not(:focus)+.form__label {
+    top: -.5rem;
+    left: .8rem;
+    font-size: .75rem;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.form__input:focus {
+    border: 2px solid #0d6efd;
+}
+
+
+.nav-pills .nav-link:focus{
+    outline: none;
+}
+.nav-pills .nav-link {
+    width: 10rem;
+    color: #80868B;;
+    border: 1px solid #80868B;
+    margin: 5rem 1rem;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+}
+.btn-outline-primary{
+    width: 7rem;
+    margin-right: 1rem;
+    border: 1px solid #80868B;
+    color: #80868B;
+   
+}
+
+.on__off__line{
+    padding: 0 0; 
+    margin-bottom: .9rem;
+}
+
+.form__div__file{
+    padding: 0 0;
+
+}
+
+.form-select{
+    border-radius: 5px;
+}
+.gender, .form__div__file{
+    color: #80868B;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.enroll__date{
+    margin-bottom: 1.8rem;
+    margin-left: -3px;
+}
+
+.log__btn{
+    margin-left: 0.6rem;
+    margin-bottom: 0;
+}
+
+.accept__checkbox__text{
+    cursor: pointer;
+    color: #0d6efd;
+    font-weight: 400;
+}
+
+#pills-home{
+    background-image: url('../img/signup-image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+#pills-profile{
+    background-image: url('../img/signin-image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+}
+.banner__title{
+    padding: 3rem;
+}
+
+
+/* copyright css */
+
+footer{
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+

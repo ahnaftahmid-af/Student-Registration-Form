@@ -1,0 +1,47 @@
+
+@media (max-width: 462px) {
+
+    .email, .password {
+            width: 100%;
+            margin-right: 0;
+        }
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 407px) {
+
+    .nav-pills .nav-link {
+            margin: 4rem 15px;
+        }   
+
+}
+
+
+@media (min-width: 404px) {
+
+    .nav-pills .nav-link {
+            margin: 4rem 15px;
+        }
+
+}
+
+
+
+@media (max-width: 403px) {
+
+    
+    .nav-pills .nav-link {
+            width: 7rem;
+            margin: 4rem 1rem;           
+        }
+
+
+    .btn-outline-primary {
+            width: 6.5rem;
+            margin-right: 6px;
+        }
+                    
+
+}
